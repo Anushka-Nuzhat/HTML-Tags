@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HLML_HW1</title>
+</head>
+<body>
+
+<style type="text/css">
+	h1 {
+		color: red;
+	}
+p 
+	{ 
+		color: green;
+    }
+body
+	{
+	background: yellow;
+	text-align: center;
+ 	font-size: 20px;
+
+    }
+ div{
+ 	border: 1px solid;
+ 	margin: 20px;
+ 	padding: 2px;
+ 	background: cyan;
+
+    }
+ table, th, td{
+
+	border: 5px solid;
+    border-collapse: collapse;
+    padding: 2px;
+    background: #FFCDD2;;
+ 	  }
+ 
+
+ 
+ 	
+	</style>
+</head>
+<body>	
+<p>HTML TAGS</p>	
+This website contains the html tags with their description and example
+
+	<h1 style="color: purple;">----------TAG----------</h1>
+	<h3 style="color:blue">---------DESCRIPTION----------</h3>
+	<h4 style ="color:brown">---------EXAMPLE---------</h4>
+	
+	
+	<table style="width: 100;">
+		<tr>
+			<th>SlNo.</th>
+			<th>Tag name</th>
+			<th>Description</th>
+			<th>Example</th>
+		 </tr>
+		 <tr>
+		 	<td>1</td>
+		 	<td>&#60!DOCTYPE&#62</td>
+		 	<td>Defines the document type</td>
+		 	<td>&#60!DOCTYPE html&#62</td>
+		 </tr>
+         <tr>
+	<td>2</td>
+	<td>&#60html&#62</td>
+	<td>Defines an HTML document</td>
+	<td>&#60html&#62......<br>	&#60/html&#62</td>
+
+	</tr>
+	<tr>
+	<td>3</td>
+	<td>&#60head&#62</td>
+	<td>Contains metadata/information for the document</td>
+	<td>&#60head&#62<br>......	&#60/head&#62</td>
+
+	</tr>
+	<tr>
+	<td>4</td>
+	<td>&#60body&#62</td>
+	<td>Defines the document's body</td>
+	<td>&#60body&#62......<br>	&#60/body&#62</td>
+
+
+	</tr>
+	<tr>
+	<td>5</td>
+	<td>&#60h1&#62 to &#60h6&#62</td>
+	<td>Defines HTML headings</td>
+	<td>&#60h1&#62Heading1&#60/h1&#62</td>
+
+	</tr>
+	<tr>
+	<td>6</td>
+	<td>&#60p&#62</td>
+	<td>Defines a paragraph</td>
+	<td>&#60p&#62A paragraph is written here&#60/p&#62</td>
+
+	</tr>
+	<tr>
+	<td>7</td>
+	<td>&#60br&#62</td>
+	<td>Insert a single line break</td>
+	<td>A paragraph is &#60br&#62 written here</td>
+
+	</tr>
+	<tr>
+	<td>8</td>
+	<td>&#60hr&#62</td>
+	<td>Defines a thematic change in the content</td>
+	<td>&#60p&#62......&#60/p&#62&#60hr&#62Thematic change in a document&#60/hr&#62&#60p&#62......&#60/p&#62</td>
+	
+
+	</tr>
+	<tr>
+	<td>9</td>
+	<td>&#60!--...--&#62</td>
+	<td>Defines a comment</td>
+	<td>&#60!--This ia a comment.Comments are not displayed in the browser--&#62<br>&#60p&#62This is a paragraph.&#60/p&#62</td>
+
+	</tr>
+	<tr>
+	<td>10</td>
+	<td>&#60abbr&#62</td>
+	<td>Defines an abbreviation or an acronym</td>
+	<td>I am studying Bachelor of science in &#60abbr title="Computer science and Engineering"&#62CSE&#60/abbr&#62 </td>
+
+	</tr>
+	<tr>
+	<td>11</td>
+	<td>&#60address&#62</td>
+	<td>Defines contact information for the author/owner of a document/article</td>
+	<td>&#60address&#62<br>Written by &#60a href= "mailto:.....&#60"Tom&#60/a&#62.<br>Visit us at Dhaka Bangladesh</td>
+
+
+	</tr>
+	<tr>
+	<td>12</td>
+	<td>&#60b&#62</td>
+	<td>Defines a bold</td>
+	<td>&#60b&#62Computer Science and Engineering&#60/b&#62</td>
+	</tr>
+
+	<tr>
+	<td>13</td>
+	<td>&#60caption&#62</td>
+	<td>Defines a table caption</td>
+	<td>&#60table&#62<br>	&#60caption......&#60/caption&#62&#62&#60tr&#62<br>&#60th&#62......&#60/th&#62<br>&#60/tr&#62<br>&#60/table&#62</td>
+
+
+	</tr>
+	<tr>
+	<td>14</td>
+	<td>&#60bdo&#62</td>
+	<td>Overrides the current text direction</td>
+	<td>&#60p&#62&#60bdo&#62 dir="rtl&#62This paragraph will go right-to-left.&#60/bdo&#62&#60/p&#62</td>
+
+
+	</tr>
+	<tr>
+	<td>15</td>
+	<td>&#60blockquote&#62</td>
+	<td>Defines a section that is quoted from another source</td>
+	<td>&#60blockquote&#62cite="https:......"&#62<br>......&#60/blockquote&#62</td>
+
+
+	</tr>
+	<tr>
+	<td>16</td>
+	<td>&#60code&#62</td>
+	<td>Defines a piece of computer code</td>
+	<td>&#60p&#62......&#60code&#62CODE.....&#60/code&#62&#60/p&#62</td>
+
+
+	</tr>
+	<tr>
+	<td>17</td>
+	<td>&#60del&#62</td>
+	<td>Defines text that has been deleted from a document</td>
+	<td>&#60p&#62Italian is my favorite cuisine&#60del&#62Italian&#60/del&#62</td>
+
+
+
+	</tr>
+	<tr>
+	<td>18</td>
+	<td>&#60dfn&#62</td>
+	<td>Specifies a term that is going to be defined within the content</td>
+	<td>&#60p&#62&#60dfn&#62HTML&#60/dfn&#62 is the standard markup language for creating web pages.&#60/p&#62</td>
+
+	</tr>
+	<tr>
+	<td>19</td>
+	<td>&#60em&#62</td>
+	<td>Defines emphasized text</td>
+	<td>&#60p&#62......&#60em&#62Emphasised text&#60/em&#62......&#60/p&#62</td>
+
+
+	</tr>
+	<tr>
+	<td>20</td>
+	<td>&#60i&#62</td>
+	<td>Defines a part of text in an alternate voice or mood</td>
+	<td>&#60p&#62......&#60i&#62Alternate voice or mood&#60/i&#62......&#60/p&#62</td>
+
+
+	</tr>
+	<tr>
+	<td>21</td>
+	<td>&#60ins&#62</td>
+	<td>Defines a text that has been inserted in a document</td>
+	<td>&#60p&#62Italian is my favorite cuisine&#60del&#62Italian&#60/del&#62&#60ins&#62Indian&#60/ins&#62&#60/p&#62</td>
+
+	</tr>
+	<tr>
+	<td>22</td>
+	<td>&#60kbd&#62</td>
+	<td>Defines keyboard input</td>
+	<td>&#60mark&#62......&#60/mark&#62</td>
+
+
+	</tr>
+	<tr>
+	<td>23</td>
+	<td>&#60mark&#62</td>
+	<td>Defines marked/highlighted text</td>
+	<td>&#60mark&#62......&#60/mark&#62</td>
+
+
+	</tr>
+	<tr>
+	<td>24</td>
+	<td>&#60meter&#62</td>
+	<td>Defines a scalar measurement within a known range ( a gauge)</td>
+	<td>&#60meter id="disk_d" value="0.6"&#62%&#60/meter&#62</td>
+
+
+	</tr>
+	<tr>
+	<td>25</td>
+	<td>&#60pre&#62</td>
+	<td>Defines preformatted text</td>
+	<td>&#60pre&#62Text in a pre element is displayed in a fixed-width font, and it preserves both spacess and line breaks&#60/pre&#62</td>
+
+
+	</tr>
+	<tr>
+	<td>26</td>
+	<td>&#60progress&#62</td>
+	<td>Represents the progress of a task</td>
+	<td>&#60label for="file&#62Downloading progress:<br>	&#60/label&#62<br>progress id="file" value="32" max="100&#62 32% &#60progress&#62/ </td>
+
+
+	</tr>
+	<tr>
+	<td>27</td>
+	<td>&#60q&#62</td>
+	<td>Defines a short quotation</td>
+	<td>&#60p&#62......&#60q&#62This text has been marked&#60/q&#62......&#60/p&#62</td>
+
+
+	</tr>
+	<tr>
+	<td>28</td>
+	<td>&#60rp</td>
+	<td>Defines what to show in browsers thta do not support roby annotations</td>
+	<td>&#60ruby&#62<br>&#60rt&#62&#60rp&#62......&#60/rp&#60/rt&#62<br>&#60/ruby&#62</td>
+
+
+	</tr>
+	<tr>
+	<td>29</td>
+	<td>&#60ruby&#62</td>
+	<td>Defines a ruby annotation( for East Asian typography)</td>
+	<td>&#60ruby&#62<br>&#60rt&#62	......&#60/rt&#62<br>&#60/ruby&#62</td>
+
+	</tr>
+	<tr>
+	<td>30</td>
+	<td>&#60rt&#62</td>
+	<td>Defines an explanation/pronunciation of characters(for East Asian typography)</td>
+	<td>&#60ruby&#62<br>&#60rt&#62	......&#60/rt&#62<br>&#60/ruby&#62</td>
+
+	</tr>
+	<tr>
+	<td>31</td>
+	<td>&#60div&#62</td>
+	<td>Defines a section in a document</td>
+	<td>&#60div&#62......make a division......&#60/div&#62</td>
+
+
+	</tr>
+	<tr>
+	<td>32</td>	
+	<td>&#60small&#62</td>	
+	<td>Defines smaller text</td>
+	<td>&#60p&#62This is some smaller text&#60/p&#62</td>
+
+
+	</tr>
+	<tr>
+	<td>33</td>	
+	<td>&#60samp&#62</td>
+	<td>Defines sample output from a computer program</td>
+	<td>&#60p&#62&#60samp&#62File Not Found.<br>	Press 5 To Continue.&#60/samp&#62&#60/p&#62</td>
+
+	</tr>
+	<tr>
+	<td>34</td>
+	<td>&#60strong&#62</td>
+	<td>Define important text in a document</td>
+	<td>&#60p&#62This text is important&#60strong&#62&#60/p&#62</td>
+
+
+	</tr>
+	<tr>
+	<td>35</td>
+	<td>&#60sub&#62</td>
+	<td>Defines a subscripted text</td>
+	<td>&#60p&#62This text contains&#60sub&#62subscript&#60/sub&#62&#60/p&#62</td>
+
+
+	</tr>
+	<tr>
+	<td>36</td>
+	<td>&#60sup&#62</td>
+	<td>Defines a superscripted text</td>
+	<td>&#60p&#62This text contains&#60sup&#62superscript&#60/sup&#62&#60/p&#62</td>
+
+
+	</tr>
+	<tr>
+	<td>37</td>
+	<td>&#60template&#62</td>
+	<td>Defines a container for content that should be hidden when the page loads</td>
+	<td>&#60button onclick="showContent()">Show hidden content&#60/button&#62<br>&#60template&#62......&#60/template&#62</td>
+
+
+	</tr>
+	<tr>
+	<td>38</td>
+	<td>&#60time&#62</td>
+	<td>Defines a specific time(or datetime)</td>
+	<td>&#60p&#62Closed at &#60time&#62 10pm everyday&#60/time&#62&#60/p&#62</td>
+
+
+	</tr>
+	<tr>
+	<td>39</td>
+	<td>&#60s&#62</td>
+	<td>Defines text that is no longer correct</td>
+	<td>&#60p&#62&#60s&#62Only 2 tickets left&#60/s&#62&#60/p&#62</td>
+
+
+	</tr>
+	<tr>
+	<td>40</td>
+	<td>&#60table&#62</td>
+	<td>Defines a table</td>
+	<td>&#60table&#62<br>&#60tr&#62<br>&#60th&#62......&#60/th&#62<br>&#60/tr&#62<br>&#60/table&#62</td>
+
+
+	</tr>
+	<tr>
+	<td>41</td>
+	<td>&#60th&#62</td>
+	<td>Defines a header cell in a table</td>
+	<td>&#60table&#62<br>&#60th&#62......&#60/th&#62<br>&#60/table&#62</td>
+
+
+
+	</tr>
+	<tr>
+	<td>42</td>
+	<td>&#60tr&#62</td>
+	<td>Defines a row in a table</td>
+	<td>&#60table&#62<br>&#60tr&#62<br>&#60th&#62......&#60/th&#62<br>&#60/tr&#62<br>&#60/table&#62</td>
+
+
+
+
+	</tr>
+	<tr>
+	<td>43</td>
+	<td>&#60head&#62</td>
+	<td>Groups the header content in a table</td>
+	<td>&#60table&#62<br>&#60tr&#62<br>&#60th&#62......&#60/th&#62<br>&#60/tr&#62<br>&#60/table&#62</td>
+
+
+
+	</tr>
+	<tr>
+	<td>44</td>
+	<td>&#60script&#62</td>
+	<td>Defines a client-side script</td>
+	<td>&#60script&#62<br>document.getElementById("demo").innerHTML="Hello Javascript!";<br>&#60/script&#62</td>
+
+
+	</tr>
+	<tr>
+	<td>45</td>
+	<td>&#60object&#62</td>
+	<td>Defines an embedded object</td>
+	<td>&#60object data="pic_trulli.jpg""<br>width "300"height"200"&#62&#60/object&#62</td>
+	</tr>
+
+	<tr>
+	<td>46</td>
+	<td>&#60param&#62</td>
+	<td>Used to define parameters for an object element</td>	
+	<td>&#60object data="horse.wav"<br>&#60param name=autoplay"value="true&#62<br>&#60/object&#62</td>
+
+
+	</tr>
+	<tr>
+	<td>47</td>
+	<td>&#60meta&#62</td>
+	<td>Defines metadata about an html</td>
+	<td>&#60meta charset="UTS-8"&#62</td>
+
+
+	</tr>
+	<tr>
+	<td>48</td>
+	<td>&#60base&#62</td>
+	<td>Specifies the base URL/target for all the relative URLs in a document</td>
+	<td>&#60head&#62<br>&#60base
+	<br>href="https://www.w3schools.com/"<br>target="_blank"&#62<br>&#60/head&#62
+   <br>&#60body&#62<br>&#60img src="images/stickman.gif"
+    <br>width="24" height="39" alt="Stickman"&#62<br>
+	&#60 a href="tags/tag_base.asp"&#62HTML base<br>
+	Tag&#60/a&#62<br>
+	&#60/body&#62<br>	
+	</td>
+
+
+	</tr>
+	<tr>
+	<td>49</td>
+	<td>&#60embed&#62</td>
+	<td>Defines container for an external(non- HTML) application</td>
+	<td>&#60embed type="image/jpg"
+	"scr="pic_trull.jpg"width="300"
+	height="200"&#62</td>
+
+
+	</tr>
+	<tr>
+	<td>50</td>
+	<td>&#60object&#62</td>
+	<td>Defines an embeded object</td>
+	<td>&#60object data = "pic_trulli.jpg"
+		width = "300" height="200"&#62&#60/object&#62
+	</td>
+
+
+	</tr>
+</table>
+</body>
+</html>
